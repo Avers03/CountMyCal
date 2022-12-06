@@ -28,6 +28,12 @@
         color: rgba(59, 89, 152, 1);
         font-family: roboto;
       }
+
+      @media screen and (min-width: 576px) {
+        .footer-column {
+          padding-left: 80px;
+        }
+      }
     </style>
   </head>
 
@@ -437,7 +443,7 @@
     <!-- Footer Section Start -->
     <div class="container-fluid" style="background: rgba(0, 119, 177, 1)">
       <div class="row justify-content-between">
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-12">
           <div class="row d-flex align-items-center">
             <div
               class="col d-flex align-items-center d-grid gap-2"
@@ -479,9 +485,12 @@
             </span>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-12">
           <div class="row">
-            <div class="col d-grid gap-4" style="padding-top: 38px">
+            <div
+              class="col d-grid gap-4 footer-column"
+              style="padding-top: 38px"
+            >
               <h4
                 class="roboto-putih"
                 style="font-size: 25px; font-weight: bold"
@@ -501,9 +510,12 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-sm-12">
           <div class="row">
-            <div class="col d-grid gap-4" style="padding-top: 38px">
+            <div
+              class="col d-grid gap-4 footer-column"
+              style="padding-top: 38px"
+            >
               <h4
                 class="roboto-putih"
                 style="font-size: 25px; font-weight: bold"
@@ -526,7 +538,7 @@
                   </div>
                   <div class="col ps-4">+6281317179370</div>
                 </div>
-                <div class="row">
+                <div class="row cd-grid gap-3">
                   <div class="col-2">
                     <img src="assets/ig.png" alt="sosmed" height="60px" />
                   </div>
