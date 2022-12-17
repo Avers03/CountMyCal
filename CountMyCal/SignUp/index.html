@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .roboto-putih {
+        color: rgba(255, 255, 255, 1);
+        font-family: roboto;
+      }
+
+      .roboto-biru {
+        color: rgba(59, 89, 152, 1);
+        font-family: roboto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Nav Section Start -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="background: rgba(0, 119, 177, 1)"
+    >
+      <div class="container-fluid">
+        <div
+          class="navbar-brand d-flex justify-content-center align-items-center"
+          style="
+            background: white;
+            padding: 0px 0px;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+          "
+        >
+          <img
+            src="../assets/Logo_DDAP-removebg-preview.png"
+            alt="CountMyCal"
+            height="70px"
+          />
+        </div>
+        <a class="navbar-brand roboto-putih" href="/">CountMyCal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../BMICalculator"
+                >BMI Calculator</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../CalorieCalculator"
+                >Calorie Calculator</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../WorkoutPrograms"
+                >Workout Programs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../MealPlans"
+                >Meal Plans</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="">About Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../Login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Section End -->
+
+    <!-- Sign up start -->
+    <section
+      class="signup d-flex justify-content-center"
+      style="background-color: #ffffff; font-family: 'Roboto', sans-serif"
+    >
+      <div class="signup-left">
+        <div class="row justify-content-center">
+          <div
+            class="col-6"
+            style="
+              width: 55%;
+              height: 100%;
+              margin: auto;
+              margin-top: 30px;
+              padding: 0 30px 0 30px;
+              background-color: #005c98;
+              border-radius: 10px;
+              justify-content: center;
+            "
+          >
+            <h1
+              class="roboto-putih"
+              style="
+                font-size: 26px;
+                font-weight: bold;
+                letter-spacing: 0.02em;
+                text-align: center;
+                padding-top: 15px;
+                margin-bottom: 3px;
+              "
+            >
+              Create account
+            </h1>
+
+            <h4
+              class="roboto-putih"
+              style="
+                font-size: 12px;
+                font-weight: medium;
+                letter-spacing: 0.01em;
+                text-align: center;
+              "
+            >
+              It's free and only takes a minute!
+            </h4>
+
+            <form style="margin: auto">
+              <label
+                class="roboto-putih"
+                style="display: flex; margin-top: 20px; font-size: 16px"
+                >What should we call you?</label
+              >
+              <input
+                type="text"
+                placeholder="Your name"
+                style="
+                  font-size: 12px;
+                  width: 100%;
+                  padding: 7px;
+                  border: none;
+                  border: 1px solid gray;
+                  border-radius: 6px;
+                  outline: none;
+                "
+              />
+
+              <label
+                class="roboto-putih"
+                style="display: flex; margin-top: 10px; font-size: 16px"
+                >Email</label
+              >
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                style="
+                  font-size: 12px;
+                  width: 100%;
+                  padding: 7px;
+                  border: none;
+                  border: 1px solid gray;
+                  border-radius: 6px;
+                  outline: none;
+                "
+              />
+
+              <label
+                class="roboto-putih"
+                style="display: flex; margin-top: 10px; font-size: 16px"
+                >Password</label
+              >
+              <input
+                type="password"
+                placeholder="Enter your password"
+                style="
+                  font-size: 12px;
+                  width: 100%;
+                  padding: 7px;
+                  border: none;
+                  border: 1px solid gray;
+                  border-radius: 6px;
+                  outline: none;
+                "
+              />
+
+              <label
+                class="roboto-putih"
+                style="margin-top: 10px; font-size: 16px"
+                >Confirm Password</label
+              >
+              <input
+                type="password"
+                placeholder="Confirm your password"
+                style="
+                  font-size: 12px;
+                  width: 100%;
+                  padding: 7px;
+                  border: none;
+                  border: 1px solid gray;
+                  border-radius: 6px;
+                  outline: none;
+                "
+              />
+
+              <a
+                class="btn btn-primary"
+                style="
+                  font-size: 16px;
+                  font-weight: medium;
+                  width: 100%;
+                  height: auto;
+                  margin-top: 20px;
+                "
+                href="CreateProfile"
+                role="button"
+                >Create account</a
+              >
+            </form>
+            <p
+              class="text-center"
+              style="
+                color: #f3eded;
+                padding-top: 5px;
+                font-size: 10px;
+                margin-bottom: 0;
+              "
+            >
+              By clicking the Sign Up, you agree to our
+              <a href="#" class="roboto-putih" style="font-size: 10px">Terms</a>
+              and
+              <a href="#" class="roboto-putih" style="font-size: 10px"
+                >Policy Privacy</a
+              >
+            </p>
+            <p
+              class="roboto-putih text-center"
+              style="font-size: 14px; padding-top: 10px; font-weight: medium"
+            >
+              Already have an account?
+              <a href="../Login" class="roboto-putih">Login here</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="signup-right h-100 w-40"
+        style="width: 630px; height: 432px; margin-top: 60px"
+      >
+        <div class="signup-right row">
+          <img
+            src="../assets/Signup-right.png"
+            class="rounded float-end"
+            alt="..."
+            style="width: 630px; height: 432px"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Sign up end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
