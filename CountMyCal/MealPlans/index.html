@@ -18,8 +18,27 @@
       href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
       rel="stylesheet"
     />
-    <link href="../css/hover-min.css" rel="stylesheet" />
-    <link href="../css/style.css" rel="stylesheet" />
+    <style>
+      .roboto-putih {
+        color: rgba(255, 255, 255, 1);
+        font-family: roboto;
+      }
+
+      .roboto-biru {
+        color: rgba(59, 89, 152, 1);
+        font-family: roboto;
+      }
+
+      .oswald-putih {
+        color: rgba(255, 255, 255, 1);
+        font-family: oswald;
+      }
+
+      .oswald-biru {
+        color: rgba(59, 89, 152, 1);
+        font-family: oswald;
+      }
+    </style>
   </head>
 
   <body>
@@ -45,12 +64,7 @@
             height="70px"
           />
         </div>
-        <a
-          class="navbar-brand hvr-grow roboto-putih"
-          style="font-weight: bold; color: white"
-          href="/"
-          >CountMyCal</a
-        >
+        <a class="navbar-brand roboto-putih" href="/">CountMyCal</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -65,62 +79,34 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link roboto-putih hvr-underline-from-center"
-                style="color: white"
-                href="../BMICalculator"
+              <a class="nav-link roboto-putih" href="../BMICalculator"
                 >BMI Calculator</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link roboto-putih hvr-underline-from-center"
-                style="color: white"
-                href="../CalorieCalculator"
+              <a class="nav-link roboto-putih" href="../CalorieCalculator"
                 >Calorie Calculator</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link roboto-putih hvr-underline-from-center"
-                style="color: white"
-                href="../WorkoutPrograms"
+              <a class="nav-link roboto-putih" href="../WorkoutPrograms"
                 >Workout Programs</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link roboto-putih active"
-                style="color: white"
-                href="../MealPlans"
-                >Meal Plans</a
-              >
+              <a class="nav-link roboto-putih" href="">Meal Plans</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link roboto-putih hvr-underline-from-center"
-                style="color: white"
-                href="#footer"
-                >About Us</a
-              >
+              <a class="nav-link roboto-putih" href="">About Us</a>
             </li>
           </ul>
-
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <a
-              class="btn roboto-putih hvr-grow"
-              style="background-color: transparent; color: white; border: none"
-              href="../SignUp"
-            >
-              Sign Up
-            </a>
-            <a
-              class="btn btn-primary roboto-putih hvr-grow-shadow"
-              style="background-color: #0d6efd; border: none"
-              href="../Login"
-            >
-              Login
-            </a>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../Login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link roboto-putih" href="../SignUp">Sign Up</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -180,7 +166,7 @@
         >
           <a
             href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
+            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
             style="
               font-weight: bold;
               background-color: rgba(59, 89, 152, 1);
@@ -199,12 +185,10 @@
           width: 250px;
         "
       >
-        <div
-          class="card-body d-flex justify-content-center align-items-end p-0"
-        >
+        <div class="card-body d-flex justify-content-center align-items-end p-0">
           <a
             href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
+            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
             style="
               font-weight: bold;
               background-color: rgba(59, 89, 152, 1);
@@ -223,12 +207,10 @@
           width: 250px;
         "
       >
-        <div
-          class="card-body d-flex justify-content-center align-items-end p-0"
-        >
+        <div class="card-body d-flex justify-content-center align-items-end p-0">
           <a
             href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
+            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
             style="
               font-weight: bold;
               background-color: rgba(59, 89, 152, 1);
@@ -247,12 +229,10 @@
           width: 250px;
         "
       >
-        <div
-          class="card-body d-flex justify-content-center align-items-end p-0"
-        >
+        <div class="card-body d-flex justify-content-center align-items-end p-0">
           <a
             href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
+            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
             style="
               font-weight: bold;
               background-color: rgba(59, 89, 152, 1);
@@ -265,90 +245,82 @@
       </div>
     </div>
     <div
-      class="col container-fluid d-flex justify-content-center"
-      style="background-color: rgba(243, 237, 237, 1)"
+    class="col container-fluid d-flex justify-content-center"
+    style="background-color: rgba(243, 237, 237, 1)"
+  >
+    <div
+      class="card my-5 mx-5"
+      style="
+        background-image: url(../assets/image\ 1.png);
+        height: 250px;
+        width: 250px;
+      "
     >
       <div
-        class="card my-5 mx-5"
-        style="
-          background-image: url(../assets/image\ 1.png);
-          height: 250px;
-          width: 250px;
-        "
+        class="card-body d-flex justify-content-center align-items-end p-0"
       >
-        <div
-          class="card-body d-flex justify-content-center align-items-end p-0"
+        <a
+          href=""
+          class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
+          style="
+            font-weight: bold;
+            background-color: rgba(59, 89, 152, 1);
+            width: 300px;
+            height: 80px;
+          "
+          >Meal Day 5</a
         >
-          <a
-            href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
-            style="
-              font-weight: bold;
-              background-color: rgba(59, 89, 152, 1);
-              width: 300px;
-              height: 80px;
-            "
-            >Meal Day 5</a
-          >
-        </div>
-      </div>
-      <div
-        class="card my-5 mx-5"
-        style="
-          background-image: url(../assets/image\ 2.png);
-          height: 250px;
-          width: 250px;
-        "
-      >
-        <div
-          class="card-body d-flex justify-content-center align-items-end p-0"
-        >
-          <a
-            href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
-            style="
-              font-weight: bold;
-              background-color: rgba(59, 89, 152, 1);
-              width: 300px;
-              height: 80px;
-            "
-            >Meal Day 6</a
-          >
-        </div>
-      </div>
-      <div
-        class="card my-5 mx-5"
-        style="
-          background-image: url(../assets/image\ 4.png);
-          height: 250px;
-          width: 250px;
-        "
-      >
-        <div
-          class="card-body d-flex justify-content-center align-items-end p-0"
-        >
-          <a
-            href=""
-            class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid hvr-shutter-out-horizontal"
-            style="
-              font-weight: bold;
-              background-color: rgba(59, 89, 152, 1);
-              width: 300px;
-              height: 80px;
-            "
-            >Meal Day 7</a
-          >
-        </div>
       </div>
     </div>
+    <div
+      class="card my-5 mx-5"
+      style="
+        background-image: url(../assets/image\ 2.png);
+        height: 250px;
+        width: 250px;
+      "
+    >
+      <div class="card-body d-flex justify-content-center align-items-end p-0">
+        <a
+          href=""
+          class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
+          style="
+            font-weight: bold;
+            background-color: rgba(59, 89, 152, 1);
+            width: 300px;
+            height: 80px;
+          "
+          >Meal Day 6</a
+        >
+      </div>
+    </div>
+    <div
+      class="card my-5 mx-5"
+      style="
+        background-image: url(../assets/image\ 4.png);
+        height: 250px;
+        width: 250px;
+      "
+    >
+      <div class="card-body d-flex justify-content-center align-items-end p-0">
+        <a
+          href=""
+          class="roboto-putih d-flex justify-content-center btn pt-4 container-fluid"
+          style="
+            font-weight: bold;
+            background-color: rgba(59, 89, 152, 1);
+            width: 300px;
+            height: 80px;
+          "
+          >Meal Day 7</a
+        >
+      </div>
+    </div>
+  </div>
     <!-- Content Section Start -->
 
     <!-- Footer Section Start -->
-    <div
-      class="container-fluid"
-      id="footer"
-      style="background: rgba(0, 119, 177, 1)"
-    >
+    <div class="container-fluid" style="background: rgba(0, 119, 177, 1)">
       <div class="row justify-content-between">
         <div class="col-lg-3 col-sm-12">
           <div class="row d-flex align-items-center">
