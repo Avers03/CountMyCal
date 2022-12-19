@@ -18,50 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
       rel="stylesheet"
     />
-<<<<<<< HEAD
-    <style>
-      .roboto-putih {
-        color: rgba(255, 255, 255, 1);
-        font-family: roboto;
-      }
-
-      .roboto-biru {
-        color: rgba(59, 89, 152, 1);
-        font-family: roboto;
-      }
-
-      .oswald-putih {
-        color: rgba(255, 255, 255, 1);
-        font-family: oswald;
-      }
-
-      .oswald-biru {
-        color: rgba(59, 89, 152, 1);
-        font-family: oswald;
-      }
-
-      ::placeholder {
-        /* Firefox, Chrome, Opera */
-        color: white !important;
-      }
-
-      :-ms-input-placeholder {
-        /* Internet Explorer 10-11 */
-        color: white !important;
-      }
-
-      ::-ms-input-placeholder {
-        /* Microsoft Edge */
-        color: white !important;
-      }
-    </style>
-=======
     <link href="../css/hover-min.css" rel="stylesheet" />
-    <link href="../css/design.css" rel="stylesheet" />
-<<<<<<< HEAD
->>>>>>> parent of 701c0ad (dikit lagi kelarr)
-=======
->>>>>>> parent of 701c0ad (dikit lagi kelarr)
+    <link href="../css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -87,7 +45,12 @@
             height="70px"
           />
         </div>
-        <a class="navbar-brand roboto-putih" href="/">CountMyCal</a>
+        <a
+          class="navbar-brand hvr-grow roboto-putih"
+          style="font-weight: bold; color: white"
+          href="/"
+          >CountMyCal</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -102,34 +65,62 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link roboto-putih" href="../BMICalculator"
+              <a
+                class="nav-link roboto-putih hvr-underline-from-center"
+                style="color: white"
+                href="../BMICalculator"
                 >BMI Calculator</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link roboto-putih" href="">Calorie Calculator</a>
+              <a
+                class="nav-link roboto-putih active"
+                style="color: white"
+                href="../CalorieCalculator"
+                >Calorie Calculator</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link roboto-putih" href="../WorkoutPrograms"
+              <a
+                class="nav-link roboto-putih hvr-underline-from-center"
+                style="color: white"
+                href="../WorkoutPrograms"
                 >Workout Programs</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link roboto-putih" href="../MealPlans"
+              <a
+                class="nav-link roboto-putih hvr-underline-from-center"
+                style="color: white"
+                href="../MealPlans"
                 >Meal Plans</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link roboto-putih" href="">About Us</a>
+              <a
+                class="nav-link roboto-putih hvr-underline-from-center"
+                style="color: white"
+                href="#footer"
+                >About Us</a
+              >
             </li>
           </ul>
+
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link roboto-putih" href="../Login">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link roboto-putih" href="../SignUp">Sign Up</a>
-            </li>
+            <a
+              class="btn roboto-putih hvr-grow"
+              style="background-color: transparent; color: white; border: none"
+              href="../SignUp"
+            >
+              Sign Up
+            </a>
+            <a
+              class="btn btn-primary roboto-putih hvr-grow-shadow"
+              style="background-color: #0d6efd; border: none"
+              href="../Login"
+            >
+              Login
+            </a>
           </ul>
         </div>
       </div>
@@ -282,7 +273,11 @@
     </div>
 
     <!-- Footer Section Start -->
-    <div class="container-fluid" style="background: rgba(0, 119, 177, 1)">
+    <div
+      class="container-fluid"
+      id="footer"
+      style="background: rgba(0, 119, 177, 1)"
+    >
       <div class="row justify-content-between">
         <div class="col-lg-3 col-sm-12">
           <div class="row d-flex align-items-center">
